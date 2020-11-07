@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-color: #03101E;
+}
+.logo{
+width: 10%;
+height: 10%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+body{
+  text-align: center;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 64px;
+}
+.button{
+  text-align: center;
+  background-color: white;
+  border: none;
+  color: #03101E;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 2px 2px;
+  transition-duration: 0.5x;
+  font-family: 'Anton', sans-serif;
+}
+.button:hover{
+  background-color: grey;
+}
+#audio{
+  display: none;
+}

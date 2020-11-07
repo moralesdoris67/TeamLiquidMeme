@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TEAM LIQUID</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<img src="TL.png" alt="" class="logo">
+<h1>YOU CAN NEVER HAVE TOO MUCH LIQUID</h1>
+
+<button class="button" type="button" onclick="audio.play();">DRINK ME!</button>
+
+  </body>
+  <script>
+var audio = new Audio("chug.mp3" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
+
+</script>
+</html>
